@@ -139,15 +139,15 @@
       "prefix": "mv",
       "architect": {
         "build": {
-          "builder": "@angular-devkit/build-ng-packagr:build",
+          "builder": "@angular-devkit/build-angular:ng-packagr",
           "options": {
             "tsConfig": "projects/ngx-bootstrap-slider/tsconfig.lib.json",
             "project": "projects/ngx-bootstrap-slider/ng-package.json"
           },
           "configurations": {
             "production": {
-              "project": "projects/ngx-bootstrap-slider/ng-package.prod.json"
-            ,              "tsConfig": "projects/ngx-bootstrap-slider/tsconfig.lib.prod.json"
+              "project": "projects/ngx-bootstrap-slider/ng-package.prod.json",
+              "tsConfig": "projects/ngx-bootstrap-slider/tsconfig.lib.prod.json"
 }
           }
         },
