@@ -4,7 +4,7 @@
   "homepage": "https://github.com/marmotteintrepide/ngx-bootstrap-slider",
   "bugs": "https://github.com/marmotteintrepide/ngx-bootstrap-slider/issues",
   "repository": "marmotteintrepide/ngx-bootstrap-slider",
-  "version": "13.0.1",
+  "version": "13.0.2",
   "license": "MIT",
   "keywords": [
     "angular",
@@ -17,8 +17,8 @@
     "tslib": "^2.0.0"
   },
   "peerDependencies": {
-    "@angular/common": "^13.3.3",
-    "@angular/core": "^13.3.3"
+    "@angular/common": "^13.0.0",
+    "@angular/core": "^13.0.0"
   },
   "ngPackage": {
     "allowedNonPeerDependencies": [
