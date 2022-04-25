@@ -11,6 +11,7 @@
     "build_lib": "ng build --configuration production ngx-bootstrap-slider",
     "npm_pack": "cd projects/ngx-bootstrap-slider/dist && npm pack",
     "package": "npm run build_lib && npm run npm_pack",
+    "package_name": "git+https://github.com/marmotteintrepide/ngx-bootstrap-slider.git",
     "publish": "npm run package && cd projects/ngx-bootstrap-slider/dist && npm publish --access public"
   },
   "private": false,
